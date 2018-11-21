@@ -8,13 +8,13 @@ from game.rectangle import Rectangle
 import pickle
 import game.node
 
-taskCount=10
+taskCount=12
 env = Environment(taskCount)
 
 # dbfile = open('env-12', 'rb')
 # env = pickle.load(dbfile)
 # dbfile.close()
-# taskCount = env.workflow.taskCount
+taskCount = env.workflow.taskCount
 
 deadline = env.workflow.DeadLine
 # env.workflow.print()
